@@ -2,7 +2,7 @@ import { getAdults } from "./getAdult";
 
 it("user not enough adult", () => {
     const result = getAdults({ "John Doe": 19, Tom: 14, Bob: 12 });
-    expect(result).toEqual({ "Josh Doe": 19 });
+    expect(result).toEqual({ "John Doe": 19 });
 });
 
 it("user 18 years old", () => {
