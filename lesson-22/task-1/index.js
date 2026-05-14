@@ -13,9 +13,9 @@ function checkEventClick(text, color) {
 const bindGreenDiv = checkEventClick.bind(null, "DIV", "green");
 const bindGreenP = checkEventClick.bind(null, "P", "green");
 const bindGreenSpan = checkEventClick.bind(null, "DIV", "green");
-const bindGrayDiv = checkEventClick.bind(null, "DIV", "gray");
-const bindGrayP = checkEventClick.bind(null, "P", "gray");
-const bindGraySpan = checkEventClick.bind(null, "DIV", "gray");
+const bindGrayDiv = checkEventClick.bind(null, "DIV", "grey");
+const bindGrayP = checkEventClick.bind(null, "P", "grey");
+const bindGraySpan = checkEventClick.bind(null, "DIV", "grey");
 
 function clearContentButton() {
     evenstListSelector.innerHTML = "";
